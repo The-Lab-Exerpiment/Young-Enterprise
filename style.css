@@ -75,10 +75,24 @@ body {
   font-size: medium;
   font-weight: 600;
   color: purple;
+  position: relative;
 }
 
-#navbar li a:hover {
+#navbar li a:hover,
+#navbar li a.active {
   color: blueviolet;
+  transition: 0.2s ease;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background: blueviolet;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
 
 .logo {
