@@ -1,2 +1,1 @@
-#Young Enterprise
-Digital resources to aid the Young Enterprise team
+Download the contents and then open home.html to view webpage
