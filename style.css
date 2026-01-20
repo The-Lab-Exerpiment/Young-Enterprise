@@ -109,7 +109,6 @@ body {
 
 #banner {
   background: #e3e6f3;
-  background-image: url("images/group_wide.png");
   height: 110vh;
   width: 100%;
   background-size: cover;
@@ -146,7 +145,7 @@ h4 {
 }
 
 #banner button {
-  background-image: url("images/button-wristband.png");
+  background-image: url("images/button-band.png");
   background-size: cover;
   background-color: transparent;
   border: none;
