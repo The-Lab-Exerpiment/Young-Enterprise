@@ -146,11 +146,16 @@ h4 {
 
 #banner button {
   background-image: url("images/button-band.png");
-  background-size: cover;
+  background-size: 100%;
   background-color: transparent;
   border: none;
-  padding: 50px 200px 50px 200px;
+  padding: 50px 50px;
   cursor: pointer;
+}
+
+#banner button:hover{
+  background-color: rgba(201, 218, 241, 0.945);
+  transition: 0.2s ease;
 }
 
 #banner button strong {
