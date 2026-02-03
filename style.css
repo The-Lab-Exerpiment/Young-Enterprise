@@ -226,3 +226,38 @@ h4 {
   width:50%;
   padding:20px 0 0 50px;
 }
+
+
+#market {
+  display: flex;
+  align-items: row;
+  flex-wrap: wrap;
+}
+
+#market .product{
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  padding: 20px 15px;
+
+  background-color: rgb(230 , 255, 255);
+  box-shadow: 20px 20px 35px rgb(0, 0, 0, 0.3);
+  margin: 5px;
+}
+
+#market .product:hover{
+  transition-duration: 100ms;
+  box-shadow: 20px 20px 35px rgb(0, 0, 0, 0.7)
+}
+
+#market .product h6{
+  width: 100%;
+  padding: 15px;
+  line-height: 2px;
+  border-radius: 2px;
+  color: darkblue;
+}
+
+#market .product img{
+  width:100%;
+}
